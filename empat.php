@@ -64,9 +64,14 @@ class Book
             'Publisher' => $this->publisher
         ];
     }
-    public function detail()
+
+    public function detail(int $ISBN) : array
     {
-        
+        if ($this->ISBN === $ISBN) {
+            return $this->showAll();
+        } else {
+            return ['Error' => 'Buku nda di temukan.'];
+        }
     }
 
 }
