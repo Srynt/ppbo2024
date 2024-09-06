@@ -64,6 +64,10 @@ class Book
             'Publisher' => $this->publisher
         ];
     }
+    public function detail()
+    {
+        
+    }
 
 }
 
