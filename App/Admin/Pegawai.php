@@ -48,5 +48,4 @@ class Pegawai
 
 
 
-$dosen = new Dosen(198411132015041001, "Dian Prawira", 62111111, "Jln Purnama", "0013118405");
-$dosen->mengajar();
+
