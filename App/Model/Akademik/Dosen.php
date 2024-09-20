@@ -1,8 +1,6 @@
 <?php
 namespace App\Model\Akademik;
 
-require_once 'Pegawai.php';
-
 use App\Model\Akademik\Pegawai;
 
 class Dosen extends Pegawai

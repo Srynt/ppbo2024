@@ -2,11 +2,6 @@
 
 namespace App\Model\Akademik;
 
-require_once 'Dosen.php';
-require_once 'TenagaKependidikan.php';
-
-use App\Admin\Dosen;
-use App\Admin\TenagaKependidikan;
 
 class Pegawai
 {
